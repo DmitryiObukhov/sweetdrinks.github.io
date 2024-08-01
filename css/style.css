@@ -9,10 +9,3 @@ html, body {
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
 }
-
-@media only screen and (orientation: landscape) {
-    html {
-        border-left: 1px solid gray;
-        border-right: 1px solid gray;
-    }
-}
