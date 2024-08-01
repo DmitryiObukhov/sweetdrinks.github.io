@@ -1,0 +1,92 @@
+/* Cocktails */
+
+.cocktails {
+    position: relative;
+    margin: 5rem;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+
+.cock-title {
+    text-align: center;
+    width: 100%;
+    font-family: 'Victor Mono', monospace;
+}
+
+.cock-about {
+    text-align: center;
+    width: 100%;
+    font-family: 'Victor Mono', monospace;
+}
+
+.cocktails-container {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 2px dotted gray;
+}
+
+.cocktails-container figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cock-img img {
+    width: 100%;
+    height: auto;
+    max-width: 22rem;
+    border-radius: 0.5rem;
+}
+
+.cock-img figcaption {
+    text-align: center;
+    font-family: 'Victor Mono', monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.cocktail-description p {
+    text-align: center;
+    font-family: 'Victor Mono', monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 2.5rem;
+    padding: 0 2rem;
+}
+
+.cocktail-description span {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .cocktails {
+        margin-top: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .cocktails-container {
+        gap: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .cocktails {
+        margin-top: 3rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .cocktails-container {
+        gap: 1rem;
+    }
+}
